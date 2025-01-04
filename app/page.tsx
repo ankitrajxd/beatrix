@@ -1,7 +1,15 @@
-import React from "react";
+import { FeaturedProducts } from "./components/FeaturedProducts";
+import HeroSection from "./components/HeroSection";
+import ProductsShowcase from "./components/ProductsShowcase";
 
-const Home = () => {
-  return <div>Hello World</div>;
-};
-
-export default Home;
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <main>
+        <HeroSection />
+        <FeaturedProducts />
+        <ProductsShowcase />
+      </main>
+    </div>
+  );
+}

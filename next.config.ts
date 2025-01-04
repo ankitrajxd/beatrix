@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig: import('next').NextConfig = {
+  images: {
+    domains: ['beatrix-assets.s3.us-east-1.amazonaws.com'], // Add your external domain here
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
