@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Beatrix",
-  description: "Pure supplements for a healthy lifestyle",
+  description: "Supplements for your workout",
 };
 
 export default function RootLayout({
